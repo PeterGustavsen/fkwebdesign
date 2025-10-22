@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "fk-webdesign-backend",
   "version": "1.0.0",
   "description": "Minimales Backend für F&K Webdesign Kontaktformular",

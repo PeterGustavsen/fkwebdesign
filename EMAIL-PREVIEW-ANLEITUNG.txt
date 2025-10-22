@@ -1,0 +1,104 @@
+========================================
+📧 E-MAIL PREVIEW ANLEITUNG
+========================================
+
+Es wurden zwei HTML-Dateien erstellt, die du im Browser öffnen kannst, um zu sehen wie die E-Mails aussehen:
+
+
+📄 DATEIEN:
+-----------
+
+1. email-preview-bestaetigung.html
+   → Bestätigungs-E-Mail für KUNDEN
+   → Das ist die E-Mail, die deine Kunden erhalten
+
+2. email-preview-fk-intern.html
+   → Interne E-Mail für F&K WEBDESIGN
+   → Das ist die E-Mail, die IHR erhaltet (an kontakt@fkwebdesign.de)
+
+
+🖥️ SO ÖFFNEST DU DIE PREVIEWS:
+-------------------------------
+
+Option 1: Doppelklick
+  → Einfach auf die .html Datei doppelklicken
+  → Öffnet sich automatisch im Browser
+
+Option 2: Rechtsklick
+  → Rechtsklick auf die Datei
+  → "Öffnen mit" → Browser auswählen (Chrome, Edge, etc.)
+
+Option 3: Drag & Drop
+  → Datei ins Browser-Fenster ziehen
+
+
+🎨 WAS DU SEHEN WIRST:
+----------------------
+
+Bestätigungs-E-Mail (Kunde):
+  ✓ Gradient-Titel "Vielen Dank!" (Blau → Orange)
+  ✓ Persönliche Anrede mit Namen
+  ✓ Wiederholung der Nachricht
+  ✓ "Was passiert als Nächstes?" (3 Schritte)
+  ✓ "Zur Website" Button
+  ✓ Grußformel mit Konstantin & Ruben
+  ✓ Vollständige Kontaktinformationen
+
+Interne E-Mail (F&K):
+  ✓ "Neue Kontaktanfrage" Header
+  ✓ Kontaktdaten übersichtlich (anklickbar!)
+  ✓ Nachricht gut formatiert
+  ✓ "Jetzt antworten" Button
+  ✓ Reply-To automatisch gesetzt
+
+
+🔄 ÄNDERUNGEN VORNEHMEN:
+------------------------
+
+Wenn du das Design anpassen möchtest:
+1. Öffne die .html Datei mit einem Text-Editor
+2. Ändere Farben, Texte, etc.
+3. Speichern und im Browser neu laden (F5)
+
+Oder:
+1. Öffne server.js
+2. Suche nach "confirmationMailOptions" (Kundenmail)
+   oder "mailOptions" (F&K intern)
+3. Ändere das HTML im "html:" Bereich
+4. Server neu starten: npm start
+
+
+💡 TIPPS:
+---------
+
+• Die E-Mails sind responsive (sehen auf Handy gut aus)
+• Alle Links sind funktional (E-Mail, Telefon, Website)
+• Das Design passt zur F&K Website (Dark Theme, Orange/Blau)
+• Die E-Mails haben auch Plain-Text Version für alte Clients
+
+
+🎨 FARBEN IM DESIGN:
+--------------------
+
+Hintergrund: #0e0f12 (Dunkelgrau)
+Primär Orange: #ff8c3a
+Primär Blau: #87ceeb
+Text Hell: #f3f3f3
+Text Muted: #c9c9c9
+Akzent: #ffb266 (Helles Orange)
+
+
+📧 TEST-MAIL SENDEN:
+--------------------
+
+Um die echten E-Mails zu testen:
+1. Server starten: npm start
+2. Website öffnen
+3. Kontaktformular ausfüllen
+4. Absenden
+5. Beide E-Mails checken!
+
+
+Bei Fragen: kontakt@fkwebdesign.de 🚀
+
+

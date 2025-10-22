@@ -1,0 +1,25 @@
+# F&K Webdesign - robots.txt
+# https://www.fkwebdesign.de/robots.txt
+
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://www.fkwebdesign.de/sitemap.xml
+
+# Disallow backend/admin areas
+Disallow: /node_modules/
+Disallow: /.env
+Disallow: /server.js
+Disallow: /package.json
+
+# Allow important files
+Allow: /css/
+Allow: /js/
+Allow: /images/
+Allow: /assets/
+
+# Crawl-delay (optional, für höfliche Bots)
+Crawl-delay: 1
+
+
